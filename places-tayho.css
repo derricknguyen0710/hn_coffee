@@ -174,3 +174,9 @@ ul li:hover ul li {
     display: flex;
     justify-content: space-around;
 }
+
+.logo {
+    padding-left: 0px;
+    height: 118px;
+    float: left;
+}
