@@ -59,7 +59,7 @@ ul li:hover ul li {
 .banner_image {
     background-image: url(Hanoi_Adobe.jpg);
     width: 100%;
-    height: 650px;
+    height: 645px;
     display: flex;
     justify-content: center;
     align-items: center;
