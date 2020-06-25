@@ -122,13 +122,12 @@ ul li:hover ul li {
 
 .placecontent {
     opacity: 0;
-    color: rgb(201, 200, 200);
-    padding-top: 100px;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
-.place:hover {
-    filter: grayscale(300%);
-}
+.place:hover {}
 
 .place:hover .placecontent {
     opacity: 0.8;
@@ -154,6 +153,12 @@ ul li:hover ul li {
     width: 350px;
     height: 350px;
     margin-bottom: 25px;
+}
+
+.aha,
+.cong,
+.kadi:hover {
+    background-color: black;
 }
 
 .donate {
