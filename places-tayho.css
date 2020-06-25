@@ -69,7 +69,6 @@ ul li:hover ul li {
     font-size: 40px;
     color: whitesmoke;
 }
-<<<<<<< HEAD
 
 .tayho,
 .district,
@@ -83,21 +82,10 @@ ul li:hover ul li {
 }
 
 .coffee1 {
-=======
-.tayho, .district,.location{
-    padding: 5% 15%;
-    text-align: center;
-}
-.district{
-    background-color: #f5f5f5f5;
-}
-.coffee1{
->>>>>>> c4ab8c1a7df5d63f73ab18dcd63b4567b72a8922
     display: flex;
     margin-bottom: 50px;
     justify-content: space-around;
 }
-<<<<<<< HEAD
 
 .coffee2 {
     display: flex;
@@ -105,57 +93,34 @@ ul li:hover ul li {
 }
 
 .coffeehouse {
-=======
-.coffee2{
-    display: flex;
-    justify-content: space-around;
-}
-.coffeehouse{
->>>>>>> c4ab8c1a7df5d63f73ab18dcd63b4567b72a8922
     width: 30%;
     height: auto;
     cursor: pointer;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
 .name {
     margin-bottom: 25px;
 }
 
 .pt {
-=======
-.name{
-    margin-bottom: 25px;
-}
-.pt{
->>>>>>> c4ab8c1a7df5d63f73ab18dcd63b4567b72a8922
     width: 100%;
     position: relative;
     margin-top: -15%;
 }
-<<<<<<< HEAD
 
 .pt h2 {
-=======
-.pt h2{
->>>>>>> c4ab8c1a7df5d63f73ab18dcd63b4567b72a8922
     text-align: center;
     font-size: 30px;
     color: #f5f5f5f5;
 }
-<<<<<<< HEAD
 
 .coffeehouse img {
-=======
-.coffeehouse img{
->>>>>>> c4ab8c1a7df5d63f73ab18dcd63b4567b72a8922
     width: 100%;
     display: block;
     height: auto;
     transition: 02s ease;
 }
-<<<<<<< HEAD
 
 .coffeehouse:hover img {
     transform: scale(1.1, 1.1);
@@ -184,34 +149,10 @@ ul li:hover ul li {
 }
 
 .bottom {
-=======
-.coffeehouse:hover img{
-  transform: scale(1.1,1.1);
-}
-.location{
-    background-color: darkslategrey;
-}
-.location1 h1{
-    margin-bottom: 40px;
-}
-.location2{
-    display: flex;
-    justify-content: space-between;
-}
-.location3{
-    width: 40%;
-}
-.location3 h3{
-   text-align: center;
-   font-size: 25px;
-}
-.bottom{
->>>>>>> c4ab8c1a7df5d63f73ab18dcd63b4567b72a8922
     text-align: center;
     padding: 1% 1%;
     background-color: black;
 }
-<<<<<<< HEAD
 
 .bt1 a {
     color: #f5f5f5f5;
@@ -230,22 +171,6 @@ ul li:hover ul li {
 }
 
 .bottom {
-=======
-.bt1 a{
-    color: #f5f5f5f5;
-}
-.bt2 ul{
-    display: flex;
-}
-.bt2 ul li{
-    margin: 0 10px;
-}
-.bt2 ul li a {
-    color: #f5f5f5f5;
-    
-}
-.bottom{
->>>>>>> c4ab8c1a7df5d63f73ab18dcd63b4567b72a8922
     display: flex;
     justify-content: space-around;
 }
