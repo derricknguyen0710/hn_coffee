@@ -121,13 +121,13 @@ ul li:hover ul li {
 }
 
 .placecontent {
+    background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     color: white;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 30%;
+    height: 100%;
 }
-
-.place:hover {}
 
 .place:hover .placecontent {
     opacity: 0.8;
