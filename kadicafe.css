@@ -27,7 +27,7 @@ body {
 }
 
 .menu_list li {
-    width: 120px;
+    width: rem;
     height: 40px;
     background-color: wheat;
     opacity: .9;
@@ -115,7 +115,7 @@ ul li:hover ul li {
 }
 
 .information {
-    background-color: #414042;
+    background-color: rgb(221, 116, 45);
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 50px;
@@ -212,6 +212,7 @@ ul li:hover ul li {
 
 .map {
     margin-left: 50px;
+    margin-bottom: 40px;
 }
 
 .head {
