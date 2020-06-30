@@ -151,6 +151,7 @@ ul li:hover ul li {
     padding-left: 30px;
     display: flex;
     background-image: url("bluewhite.jpg");
+    text-align: center;
 }
 
 .quan {
@@ -174,13 +175,13 @@ ul li:hover ul li {
 .test2 {
     display: flex;
     padding-top: 80px;
-    margin-left: 30px;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .pic2 {
     width: 750px;
     height: 500px;
-    padding-left: 60px;
 }
 
 .danhgia {
@@ -188,6 +189,7 @@ ul li:hover ul li {
     padding-top: 70px;
     word-wrap: break-word;
     font-size: 23px;
+    margin-left: 40px;
 }
 
 .guide {
@@ -195,8 +197,13 @@ ul li:hover ul li {
     margin-left: 0px;
     background-color: rgb(151, 74, 29);
     padding-top: 40px;
+    text-align: center;
+    padding: 5% 15%;
 }
-
+.flex_head{
+    margin-bottom: 40px;
+    font-size: 10px;
+}
 .inf {
     margin-left: 40px;
     font-size: 150%;
@@ -211,10 +218,13 @@ ul li:hover ul li {
 }
 
 .map {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .head {
     font-size: 4rem;
     margin-bottom: 20px;
+}
+.inf{
+    margin-top: 30px;
 }
