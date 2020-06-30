@@ -57,12 +57,14 @@ ul li:hover ul li {
 }
 
 .banner_image {
-    background-image: url(Hanoi_Adobe.jpg);
+    background-image: url(tayho.jpg);
     width: 100%;
     height: 645px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .banner_content {
