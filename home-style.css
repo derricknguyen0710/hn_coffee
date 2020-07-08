@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: ;
+    background-color: wheat;
 }
 
 .menu_list {
@@ -28,7 +28,7 @@ body {
 .menu_list li {
     width: 120px;
     height: 40px;
-    background-color: ;
+    background-color: wheat;
     opacity: .9;
     line-height: 40px;
     text-align: center;
@@ -97,7 +97,7 @@ ul li:hover ul li {
 }
 
 .hottest {
-    background: ;
+    background: white;
     font-size: 150%;
 }
 
