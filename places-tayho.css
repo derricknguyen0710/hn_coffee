@@ -139,6 +139,7 @@ ul li:hover ul li {
 
 .location2 {
     display: flex;
+    justify-content: space-between;
 }
 
 .location3 {
