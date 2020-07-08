@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: wheat;
+    background-color: white;
 }
 
 .menu_list {
@@ -26,25 +26,25 @@ body {
 }
 
 .menu_list li {
-    width: 120px;
-    height: 40px;
-    background-color: wheat;
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
     opacity: .9;
-    line-height: 40px;
+    line-height: 3rem;
     text-align: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 ul li a {
     text-decoration: none;
-    color: rgb(131, 116, 50);
+    color: black;
     display: block;
     font-weight: bold;
 }
 
 ul li a:hover {
-    background-color: rgb(104, 96, 62);
+    background-color:black;
     color: white;
 }
 
@@ -75,7 +75,7 @@ ul li:hover ul li {
 }
 
 .banner_content {
-    font-size: 30px;
+    font-size: 2rem;
     color: whitesmoke;
     opacity: 0;
 }
@@ -97,7 +97,7 @@ ul li:hover ul li {
 }
 
 .hottest {
-    background: white;
+    background: whitesmoke;
     font-size: 150%;
 }
 
@@ -117,11 +117,12 @@ ul li:hover ul li {
 }
 
 .place a:hover {
-    color: wheat;
+    border: 3px solid black;
+    padding: 0.5rem;
 }
 
 .placecontent {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 1);
     opacity: 0;
     color: white;
     font-weight: bold;
@@ -135,21 +136,21 @@ ul li:hover ul li {
 }
 
 .cong {
-    background-image: url("congcoffee.jpg");
+    background-image: url("CongCafe1.jpg");
     width: 350px;
     height: 350px;
     margin-bottom: 25px;
 }
 
 .aha {
-    background-image: url("ahacafe.jpg");
+    background-image: url("AhaCafe1.jpg");
     width: 350px;
     height: 350px;
     margin-bottom: 25px;
 }
 
 .kadi {
-    background-image: url("kadicafe.jpg");
+    background-image: url("kadicafe1.jpg");
     width: 350px;
     height: 350px;
     margin-bottom: 25px;
@@ -162,38 +163,52 @@ ul li:hover ul li {
 }
 
 .donate {
-    background-color: ;
-    width: 100%;
-    height: 200px;
+    border: 3px solid #ffffff;
+    height: 120px;
+    width: 30%;
+    margin-top: -80px;
+    margin-right: 50px;
+    margin-left: 0px;
     text-align: center;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 0px;
-    padding-top: 50px;
+    float: right;
 }
 
-.donate h4 {
-    color: wheat;
-    font-size: 30px;
+.donate12
+{
+    border: .3rem solid black;
+    height: 10rem;
+    width: 60rem;
+    margin-top: 7rem;
+    margin-left: 13rem;
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
 }
 
-.donate a {
+.donate12 h4 {
+    padding-top: 10px;
+    color: black;
+    font-size: 2rem;
+}
+
+.donate12 a {
     color: tomato;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
-.donate a:hover {
-    border: 2px solid wheat;
+.donate12 a:hover {
+    border: .3rem solid tomato;
     margin: 30px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .bottom {
     width: 1349px;
     padding: 20px;
     text-align: center;
-    background-color: ;
+    background-color: wheat;
 }
 
 .logo {
@@ -210,7 +225,7 @@ ul li:hover ul li {
 
 .review {
     font-size: 150%;
-    background-color: #;
+    background-color: wheat;
     padding-bottom: 100px;
 }
 
@@ -239,14 +254,29 @@ ul li:hover ul li {
     padding-top: 8px;
 }
 
-.info {
-    font-size: 15px;
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    color: white;
+    font-size: 20px;
     padding-right: 15px;
     padding-left: 15px;
+    line-height: 1.5rem;
+}
+
+.creator{
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5rem;
 }
 
 .information {
-    background-color: ;
+    background-color: #414042;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 50px;
@@ -266,29 +296,17 @@ ul li:hover ul li {
     margin-right: 20px;
 }
 
-.bottom {
+.social-icon {
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: larger;
+    align-items: center;
     text-align: center;
-    padding: 1% 1%;
-    background-color: black;
 }
 
-.bt1 a {
-    color: #f5f5f5f5;
-}
-
-.bt2 ul {
-    display: flex;
-}
-
-.bt2 ul li {
-    margin: 0 10px;
-}
-
-.bt2 ul li a {
-    color: #f5f5f5f5;
-}
-
-.bottom {
-    display: flex;
-    justify-content: space-around;
+.wraper {
+    background-color: rgb(68, 16, 16);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
 }
