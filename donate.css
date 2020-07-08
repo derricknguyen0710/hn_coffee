@@ -3,21 +3,18 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     outline: none;
 }
 
-body {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 .menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: ;
+    background-color: wheat;
 }
 
 .menu_list {
@@ -28,7 +25,7 @@ body {
 .menu_list li {
     width: 120px;
     height: 40px;
-    background-color: ;
+    background-color: wheat;
     opacity: .9;
     line-height: 40px;
     text-align: center;
@@ -61,7 +58,7 @@ ul li:hover ul li {
 }
 
 .banner_image {
-    background-image: url("homepic.jpg");
+    background-image: url("https://highlandscoffee.com.vn/vnt_upload/news/11_2018/5.jpg");
     width: 100%;
     height: 645px;
     display: flex;
@@ -69,15 +66,9 @@ ul li:hover ul li {
     align-items: center;
 }
 
-.banner_image:hover .banner_content {
-    opacity: 1;
-    transition: 1s ease;
-}
-
 .banner_content {
     font-size: 30px;
     color: whitesmoke;
-    opacity: 0;
 }
 
 .banner_content a {
@@ -90,14 +81,29 @@ ul li:hover ul li {
     border: 2px solid whitesmoke;
 }
 
+.about a {
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.about a:hover {
+    border: 2px solid whitesmoke;
+    color: black;
+}
+
+.about,
 .hottest,
-.review {
+.review,
+.ourteam,
+.missionandvision,
+.donatemain {
     text-align: center;
     padding: 5% 10%;
 }
 
 .hottest {
-    background: ;
+    background: #f5f5f5f5;
     font-size: 150%;
 }
 
@@ -111,6 +117,11 @@ ul li:hover ul li {
     width: 30%;
 }
 
+.place img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
 .place a {
     color: black;
     font-size: 25px;
@@ -120,49 +131,8 @@ ul li:hover ul li {
     color: wheat;
 }
 
-.placecontent {
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    color: white;
-    font-weight: bold;
-    padding-top: 30%;
-    height: 100%;
-}
-
-.place:hover .placecontent {
-    opacity: 0.8;
-    transition: 1s ease;
-}
-
-.cong {
-    background-image: url("congcoffee.jpg");
-    width: 350px;
-    height: 350px;
-    margin-bottom: 25px;
-}
-
-.aha {
-    background-image: url("ahacafe.jpg");
-    width: 350px;
-    height: 350px;
-    margin-bottom: 25px;
-}
-
-.kadi {
-    background-image: url("kadicafe.jpg");
-    width: 350px;
-    height: 350px;
-    margin-bottom: 25px;
-}
-
-.aha,
-.cong,
-.kadi:hover {
-    background-color: black;
-}
-
 .donate {
-    background-color: ;
+    background-color: rgb(105, 53, 44);
     width: 100%;
     height: 200px;
     text-align: center;
@@ -193,7 +163,7 @@ ul li:hover ul li {
     width: 1349px;
     padding: 20px;
     text-align: center;
-    background-color: ;
+    background-color: wheat;
 }
 
 .logo {
@@ -210,8 +180,7 @@ ul li:hover ul li {
 
 .review {
     font-size: 150%;
-    background-color: #;
-    padding-bottom: 100px;
+    background-color: rgb(160, 72, 55);
 }
 
 .post {
@@ -219,11 +188,7 @@ ul li:hover ul li {
     padding-bottom: 10px;
     background-color: white;
     border: solid 2px;
-    border-radius: 15px 50px;
-}
-
-.rev {
-    padding-top: 20px;
+    border-radius: 25%;
 }
 
 .reviewer {
@@ -231,27 +196,20 @@ ul li:hover ul li {
     padding-top: 5px;
 }
 
-.reviewer-name {
-    padding-top: 16px;
-}
-
 .thought {
     padding-top: 8px;
 }
 
 .info {
-    font-size: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    float: left;
+    font-size: 120%;
 }
 
 .information {
-    background-color: ;
+    background-color: #303030;
     color: #ffffff;
+    display: flex;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 50px;
-    padding-top: 70px;
-    line-height: 1.7;
 }
 
 .icon {
@@ -261,34 +219,22 @@ ul li:hover ul li {
     color: black
 }
 
-.social {
-    color: #ffffff;
-    margin-right: 20px;
+.ourteam,
+.missionandvision,
+.donatemain {
+    font-size: 200%;
 }
 
-.bottom {
-    text-align: center;
-    padding: 1% 1%;
-    background-color: black;
+.developer,
+.mvcont {
+    padding-top: 20px;
 }
 
-.bt1 a {
-    color: #f5f5f5f5;
+.developer-info {
+    padding-top: 80px;
 }
 
-.bt2 ul {
-    display: flex;
-}
-
-.bt2 ul li {
-    margin: 0 10px;
-}
-
-.bt2 ul li a {
-    color: #f5f5f5f5;
-}
-
-.bottom {
-    display: flex;
-    justify-content: space-around;
+.money {
+    padding: 30px;
+    font-size: 30px;
 }
