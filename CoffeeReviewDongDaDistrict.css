@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url("https: //fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +45,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: black;
+    background-color:black;
     color: white;
 }
 
@@ -90,91 +91,120 @@ ul li:hover ul li {
     border: 2px solid whitesmoke;
 }
 
-.hottest,
-.review {
+.bottom {
+    width: 1349px;
+    padding: 20px;
     text-align: center;
-    padding: 5% 10%;
+    background-color: wheat;
 }
 
-.hottest {
-    background: whitesmoke;
-    font-size: 150%;
+.logo {
+    padding-left: 0px;
+    height: 118px;
+    float: left;
 }
 
-.hottest_places {
+.flex {
     display: flex;
-    margin-top: 35px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info {
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.test1 {
+    padding-top: 80px;
+    padding-left: 30px;
+    display: flex;
+    background-image: url("bluewhite.jpg");
+    text-align: center;
+}
+
+.quan {
+    background-color: silver;
+    width: 600px;
+    height: 350px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 100px;
+    font-family: 'satisfy', cursive;
+    font-size: 6rem;
+}
+
+.pic {
+    width: 800px;
+    height: 500px;
+}
+
+.test2 {
+    display: flex;
+    padding-top: 80px;
+    text-align: center;
     justify-content: space-around;
 }
 
-.place {
-    width: 30%;
+.pic2 {
+    width: 750px;
+    height: 500px;
 }
 
-.place a {
-    color: black;
+.danhgia {
+    width: 500px;
+    padding-top: 70px;
+    word-wrap: break-word;
     font-size: 25px;
+    margin-left: 40px;
+    text-align: left;
 }
 
-.place a:hover {
-    border: 3px solid black;
-    padding: 0.5rem;
-}
-
-.placecontent {
-    background: rgba(0, 0, 0, 1);
-    opacity: 0;
-    color: white;
-    font-weight: bold;
-    padding-top: 30%;
-    height: 100%;
-}
-
-.place:hover .placecontent {
-    opacity: 0.8;
-    transition: 1s ease;
-}
-
-.cong {
-    background-image: url("congcoffee.jpg");
-    width: 350px;
-    height: 350px;
-    margin-bottom: 25px;
-}
-
-.aha {
-    background-image: url("ahacafe.jpg");
-    width: 350px;
-    height: 350px;
-    margin-bottom: 25px;
-}
-
-.kadi {
-    background-image: url("kadicafe.jpg");
-    width: 350px;
-    height: 350px;
-    margin-bottom: 25px;
-}
-
-.aha,
-.cong,
-.kadi:hover {
-    background-color: black;
-}
-
-.donate {
-    border: 3px solid #ffffff;
-    height: 120px;
-    width: 30%;
-    margin-top: -80px;
-    margin-right: 50px;
+.guide {
+    margin-top: 70px;
     margin-left: 0px;
+    background-color: rgb(151, 74, 29);
+    padding-top: 40px;
     text-align: center;
-    align-items: center;
-    float: right;
+    padding: 5% 5%;
+}
+.flex_head{
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+.inf {
+    margin-left: 0px;
+    font-size: 150%;
+    margin-top: 150px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
 }
 
-.donate12 {
+.inf a {
+    color: black;
+}
+
+.map {
+    margin-left: 60px;
+}
+
+.head {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.inf{
+    margin-top: 30px;
+}
+
+.donate12
+{
     border: .3rem solid black;
     height: 10rem;
     width: 60rem;
@@ -203,56 +233,7 @@ ul li:hover ul li {
     padding: 5px;
 }
 
-.bottom {
-    width: 1349px;
-    padding: 20px;
-    text-align: center;
-    background-color: wheat;
-}
-
-.logo {
-    padding-left: 0px;
-    height: 118px;
-    float: left;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.review {
-    font-size: 150%;
-    padding-bottom: 100px;
-}
-
-.post {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    border: solid 2px;
-    border-radius: 15px 50px;
-}
-
-.rev {
-    padding-top: 20px;
-}
-
-.reviewer {
-    border-top: solid 3px;
-    padding-top: 5px;
-}
-
-.reviewer-name {
-    padding-top: 16px;
-}
-
-.thought {
-    padding-top: 8px;
-}
-
-.info {
+.info{
     display: flex;
     justify-content: space-around;
 }
@@ -265,7 +246,7 @@ ul li:hover ul li {
     line-height: 1.5rem;
 }
 
-.creator {
+.creator{
     color: white;
     font-size: 20px;
     padding-right: 15px;
@@ -298,6 +279,7 @@ ul li:hover ul li {
     margin-top: 10px;
     padding-left: 15px;
     font-size: larger;
+    color: white;
     align-items: center;
     text-align: center;
 }
@@ -306,4 +288,5 @@ ul li:hover ul li {
     background-color: rgb(68, 16, 16);
     padding-top: 25px;
     padding-bottom: 25px;
+    
 }
