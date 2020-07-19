@@ -179,17 +179,29 @@ ul li:hover ul li {
     justify-content: space-around;
 }
 
+.test3 {
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.test4 img {
+    margin-top: 5px;
+}
+
 .pic2 {
-    width: 750px;
-    height: 500px;
+    width: 629px;
+    height: 400px;
 }
 
 .danhgia {
     width: 500px;
-    padding-top: 70px;
+    padding-top: 10px;
     word-wrap: break-word;
     font-size: 23px;
-    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 30px;
 }
 
 .guide {
@@ -200,10 +212,12 @@ ul li:hover ul li {
     text-align: center;
     padding: 5% 15%;
 }
-.flex_head{
+
+.flex_head {
     margin-bottom: 40px;
     font-size: 10px;
 }
+
 .inf {
     margin-left: 40px;
     font-size: 150%;
@@ -225,6 +239,12 @@ ul li:hover ul li {
     font-size: 4rem;
     margin-bottom: 20px;
 }
-.inf{
+
+.inf {
     margin-top: 30px;
+}
+
+.wallpaper {
+    text-align: center;
+    display: flex;
 }
