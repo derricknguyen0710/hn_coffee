@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: wheat;
+    background-color: white;
 }
 
 .menu_list {
@@ -27,25 +27,25 @@ body {
 }
 
 .menu_list li {
-    width: 120px;
-    height: 40px;
-    background-color: wheat;
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
     opacity: .9;
-    line-height: 40px;
+    line-height: 3rem;
     text-align: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 ul li a {
     text-decoration: none;
-    color: rgb(131, 116, 50);
+    color: black;
     display: block;
     font-weight: bold;
 }
 
 ul li a:hover {
-    background-color: rgb(104, 96, 62);
+    background-color: black;
     color: white;
 }
 
@@ -54,10 +54,6 @@ ul li ul li {
 }
 
 ul li:hover ul li {
-    display: block;
-}
-
-.menu_list .menu_xxx {
     display: block;
 }
 
