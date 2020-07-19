@@ -105,9 +105,24 @@ ul li:hover ul li {
 }
 
 .info {
-    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    color: white;
+    font-size: 20px;
     padding-right: 15px;
     padding-left: 15px;
+    line-height: 1.5rem;
+}
+
+.creator {
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5rem;
 }
 
 .information {
@@ -132,14 +147,17 @@ ul li:hover ul li {
 }
 
 .social-icon {
+    margin-top: 10px;
     padding-left: 15px;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
 }
 
 .wraper {
-    background-color: rgb(153, 62, 62);
+    background-color: rgb(68, 16, 16);
     padding-top: 25px;
     padding-bottom: 25px;
-    text-align: center;
 }
 
 .test1 {
