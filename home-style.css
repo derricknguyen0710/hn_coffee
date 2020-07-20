@@ -44,7 +44,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color:black;
+    background-color: black;
     color: white;
 }
 
@@ -174,8 +174,7 @@ ul li:hover ul li {
     float: right;
 }
 
-.donate12
-{
+.donate12 {
     border: .3rem solid black;
     height: 10rem;
     width: 60rem;
@@ -225,8 +224,8 @@ ul li:hover ul li {
 
 .review {
     font-size: 150%;
-    background-color: wheat;
     padding-bottom: 100px;
+    background-color: wheat;
 }
 
 .post {
@@ -254,7 +253,7 @@ ul li:hover ul li {
     padding-top: 8px;
 }
 
-.info{
+.info {
     display: flex;
     justify-content: space-around;
 }
@@ -267,7 +266,7 @@ ul li:hover ul li {
     line-height: 1.5rem;
 }
 
-.creator{
+.creator {
     color: white;
     font-size: 20px;
     padding-right: 15px;
@@ -308,5 +307,4 @@ ul li:hover ul li {
     background-color: rgb(68, 16, 16);
     padding-top: 25px;
     padding-bottom: 25px;
-    
 }

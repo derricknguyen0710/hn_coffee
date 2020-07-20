@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https: //fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.menu_list {
+    display: flex;
+    align-items: center;
+}
+
+.menu_list li {
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
+    opacity: .9;
+    line-height: 3rem;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color:black;
+    color: white;
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
+
+.menu_list .menu_xxx {
+    display: block;
+}
+
+.banner_image {
+    background-image: url("homepic.jpg");
+    width: 100%;
+    height: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_image:hover .banner_content {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.banner_content {
+    font-size: 2rem;
+    color: whitesmoke;
+    opacity: 0;
+}
+
+.banner_content a {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.banner_content a:hover {
+    border: 2px solid whitesmoke;
+}
+
+.bottom {
+    width: 1349px;
+    padding: 20px;
+    text-align: center;
+    background-color: wheat;
+}
+
+.logo {
+    padding-left: 0px;
+    height: 118px;
+    float: left;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info {
+    font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+.test1 {
+    padding-top: 80px;
+    padding-left: 30px;
+    display: flex;
+    background-image: url("bluewhite.jpg");
+    text-align: center;
+}
+
+.quan {
+    background-color: silver;
+    width: 600px;
+    height: 350px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 100px;
+    font-family: 'satisfy', cursive;
+    font-size: 6rem;
+}
+
+.pic {
+    width: 800px;
+    height: 500px;
+}
+
+.test2 {
+    display: flex;
+    padding-top: 80px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.pic2 {
+    width: 750px;
+    height: 500px;
+}
+
+.danhgia {
+    width: 500px;
+    padding-top: 70px;
+    word-wrap: break-word;
+    font-size: 25px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.guide {
+    margin-top: 70px;
+    margin-left: 0px;
+    background-color: rgb(151, 74, 29);
+    padding-top: 40px;
+    text-align: center;
+    padding: 5% 5%;
+}
+.flex_head{
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+.inf {
+    margin-left: 0px;
+    font-size: 150%;
+    margin-top: 150px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+}
+
+.inf a {
+    color: black;
+}
+
+.map {
+    margin-left: 60px;
+}
+
+.head {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.inf{
+    margin-top: 30px;
+}
+
+.donate12
+{
+    border: .3rem solid black;
+    height: 10rem;
+    width: 60rem;
+    margin-top: 7rem;
+    margin-left: 13rem;
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.donate12 h4 {
+    padding-top: 10px;
+    color: black;
+    font-size: 2rem;
+}
+
+.donate12 a {
+    color: tomato;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.donate12 a:hover {
+    border: .3rem solid tomato;
+    margin: 30px;
+    padding: 5px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5rem;
+}
+
+.creator{
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5rem;
+}
+
+.information {
+    background-color: #414042;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    line-height: 1.7;
+}
+
+.icon {
+    justify-content: space-around;
+    padding-left: 400px;
+    font-size: 30px;
+    color: black
+}
+
+.social {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.social-icon {
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: larger;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.wraper {
+    background-color: rgb(68, 16, 16);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
