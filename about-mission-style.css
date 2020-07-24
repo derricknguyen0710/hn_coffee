@@ -142,23 +142,11 @@ ul li:hover ul li {
     padding-top: 50px;
 }
 
-.donate {
-    border: 3px solid #ffffff;
-    height: 120px;
-    width: 30%;
-    margin-top: -80px;
-    margin-right: 50px;
-    margin-left: 0px;
-    text-align: center;
-    align-items: center;
-    float: right;
-}
-
 .donate12 {
     border: .3rem solid black;
     height: 10rem;
     width: 60rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-left: 13rem;
     padding-top: 2rem;
     text-align: center;
