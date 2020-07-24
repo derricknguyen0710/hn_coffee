@@ -3,18 +3,21 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     outline: none;
 }
 
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: wheat;
+    background-color: white;
 }
 
 .menu_list {
@@ -23,25 +26,25 @@
 }
 
 .menu_list li {
-    width: 120px;
-    height: 40px;
-    background-color: wheat;
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
     opacity: .9;
-    line-height: 40px;
+    line-height: 3rem;
     text-align: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 ul li a {
     text-decoration: none;
-    color: rgb(131, 116, 50);
+    color: black;
     display: block;
     font-weight: bold;
 }
 
 ul li a:hover {
-    background-color: rgb(104, 96, 62);
+    background-color: black;
     color: white;
 }
 
@@ -53,17 +56,14 @@ ul li:hover ul li {
     display: block;
 }
 
-.menu_list .menu_xxx {
-    display: block;
-}
-
 .banner_image {
-    background-image: url("https://highlandscoffee.com.vn/vnt_upload/news/11_2018/5.jpg");
-    width: 100%;
+    background-image: url("misandvismain.jpg");
     height: 645px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner_content {
@@ -142,21 +142,33 @@ ul li:hover ul li {
     padding-top: 50px;
 }
 
-.donate h4 {
-    color: wheat;
-    font-size: 30px;
+.donate12 {
+    border: .3rem solid black;
+    height: 10rem;
+    width: 60rem;
+    margin-top: 5rem;
+    margin-left: 13rem;
+    padding-top: 2rem;
+    text-align: center;
+    align-items: center;
 }
 
-.donate a {
+.donate12 h4 {
+    padding-top: 10px;
+    color: black;
+    font-size: 2rem;
+}
+
+.donate12 a {
     color: tomato;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
-.donate a:hover {
-    border: 2px solid wheat;
+.donate12 a:hover {
+    border: .3rem solid tomato;
     margin: 30px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .bottom {
@@ -183,33 +195,44 @@ ul li:hover ul li {
     background-color: rgb(160, 72, 55);
 }
 
-.post {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    border: solid 2px;
-    border-radius: 25%;
+.missionandvision {
+    font-size: 200%;
+    border-bottom: 2px solid black;
 }
 
-.reviewer {
-    border-top: solid 3px;
-    padding-top: 5px;
-}
-
-.thought {
-    padding-top: 8px;
+.developer,
+.mvcont {
+    padding-top: 20px;
 }
 
 .info {
-    float: left;
-    font-size: 120%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5rem;
+}
+
+.creator {
+    color: white;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5rem;
 }
 
 .information {
-    background-color: #303030;
+    background-color: #414042;
     color: #ffffff;
-    display: flex;
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    line-height: 1.7;
 }
 
 .icon {
@@ -219,22 +242,27 @@ ul li:hover ul li {
     color: black
 }
 
-.ourteam,
-.missionandvision,
-.donatemain {
-    font-size: 200%;
+.social {
+    color: #ffffff;
+    margin-right: 20px;
 }
 
-.developer,
-.mvcont {
-    padding-top: 20px;
+.social-icon {
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
 }
 
-.developer-info {
-    padding-top: 80px;
+.wraper {
+    background-color: rgb(68, 16, 16);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
-.money {
-    padding: 30px;
-    font-size: 30px;
+.flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
