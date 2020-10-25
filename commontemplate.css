@@ -262,3 +262,41 @@ ul li:hover ul li {
     text-align: center;
     display: flex;
 }
+
+.guide1 {
+    margin-top: 70px;
+    margin-left: 0px;
+    background-color: rgb(151, 74, 29);
+    padding-top: 40px;
+    text-align: center;
+    padding: 5% 5%;
+}
+.flex_head1{
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+.inf1 {
+    margin-left: 0px;
+    font-size: 150%;
+    margin-top: 150px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+}
+
+.inf1 a {
+    color: black;
+}
+
+.map1 {
+    margin-left: 60px;
+}
+
+.head1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.inf1{
+    margin-top: 30px;
+}
